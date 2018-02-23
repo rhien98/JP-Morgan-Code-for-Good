@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+<style>
+
+.login-page {
+  width: 400px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form input {
+  outline: 5;
+  background: #EEEEEE;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 2px;
+}
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #BA0A7E;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 2px
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #555555;
+}
+html{
+  height: 900px;
+}
+html{
+  height: 1100px;
+}
+img.logo{
+  width: 30%;
+  display: block;
+  margin-left: left;
+  margin-right: auto;
+}
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+  float: center;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Arial Narrow";
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #BA0A7E;
+  color: white;
+}
+h1{
+ text-align: center;
+ font-weight: bold;
+ font-family: "Arial Narrow";
+ color: #BA0A7E;
+}
+table{
+  color: #4B5320;
+  margin-left:auto;
+  margin-right:auto;
+  width: 60%;
+  text-align: center;
+}
+div2{
+  padding: 50px;
+  margin: 0 auto;
+  position: fixed;
+  top: 12%;
+  left: 61%;
+}
+.table {
+  margin: 0 0 40px 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+}
+
+
+.row {
+  display: table-row;
+  background: #f6f6f6;
+}
+.row:nth-of-type(odd) {
+  background: #000000;
+}
+.row.header {
+  font-weight: 900;
+  color: #ffffff;
+  background: #000000;
+}
+.cell {
+  padding: 6px 12px;
+  display: table-cell;
+  float: relative;
+}
+
+
+#container{
+  vertical-align: middle;
+  margin: 25px auto;
+
+  width: 250px;
+  height: 50px;
+}
+
+
+.search{
+	            padding:7px;
+                background: #ffffff;
+                border:1px solid #000000;
+				color:#000000;
+				 margin-left: 10px;
+}
+
+.button {
+	background-color:#000000;
+                color:#ffffff;
+                position:relative;
+                padding:6px 15px;
+                left:-5px;
+                border:1.75px solid #000000;
+
+
+}
+
+.button:hover  {
+                background-color:#fafafa;
+                color:#0d3251;
+				border:1.75px solid #aba7a7;
+}
+</style>
+
+		<title>Login Form</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="loginformstyle.css">
+	</head>
+<body>
+	<img class="logo" src="logo.png" alt="Clic Sargent Icon">
+	<div class="topnav">
+		<a class="active" href="home.html">Home</a>
+		<a href="page2.html">Forums</a>
+		<a href="vlog.html">Vlog</a>
+		<a href="#faqs">FAQs</a>
+	</div>
+	<h1 id="heading">Login</h1>
+
+	<div class="login-page">
+	<div class="form">
+		<form action="page1.html" method="POST"class="login-form">
+			<input type="text" name="username" placeholder="Username"/>
+			<input type="password" name="password" placeholder="Password"/>
+			<button type='submit' value="Submit">Login</button>
+		</form>
+	</div>
+	</div>
+</body>
+</html>

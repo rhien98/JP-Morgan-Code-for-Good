@@ -1,0 +1,8 @@
+Summary for bea
+develop a responsive web application which takes young people and their families through hospital experience.
+does this in an engaging way to help them to prepare for treatment.
+Solution could also be used by social workers during face to face visits to guide young people.
+Different sources of information in different media forms
+Information would be tailored to individual.
+Solution should allow people to share their experiences anonymously.
+Users could post their own experiences to help the other users through their treatment.
